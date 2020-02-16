@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuiReg",
+            "request": "launch",
+            "mainClass": "guireg.GuiReg",
+            "projectName": "pvg"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<pvg>",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "pvg"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Gui<pvg>",
+            "request": "launch",
+            "mainClass": "gui.Gui",
+            "projectName": "pvg"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Gui_Reg<pvg>",
+            "request": "launch",
+            "mainClass": "guireg.Gui_Reg",
+            "projectName": "pvg"
+        }
+    ]
+}
